@@ -1,0 +1,57 @@
+
+
+.todo {
+  margin: 50px 330px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 40%;
+}
+
+.todo h2 {
+  color: #333;
+}
+
+.todo ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo li {
+  display: flex;
+  align-items: center; /* Align text and button vertically */
+  cursor: pointer;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.todo li button {
+  background-color: #ff4444; /* Red color for Remove button */
+  color: white;
+  padding: 8px;
+margin-left: 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.todo li button:hover {
+  background-color: #cc0000; /* Darker red on hover */
+}
+
+.todo button.add-todo {
+  background-color: #0e0f0e; /* Green color for Add Todo button */
+  color: white;
+  padding: 8px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.todo button.add-todo:hover {
+  background-color: #22b522; /* Darker green on hover */
+}
